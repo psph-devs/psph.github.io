@@ -38,6 +38,35 @@ body {
   flex-direction: row;
 }
 
+#navbar-header {
+  background-color: #edcd1f;
+  width: 330px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.navbar-logo {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
+
+#navbar-title {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#navbar-title span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: black;
+}
+
 #navbar-links {
   width: 50%;
   position: absolute;

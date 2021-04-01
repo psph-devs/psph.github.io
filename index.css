@@ -294,3 +294,13 @@ a.nav-link.active-link,
   width: 450px;
   height: 300px;
 }
+
+#inquiries-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  height: 400px;
+  margin-top: 40px;
+}

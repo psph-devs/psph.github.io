@@ -282,3 +282,14 @@ a.nav-link.active-link,
 .projects-item:hover img {
   transform: scale(1.2);
 }
+
+#contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#mapid {
+  height: 180px;
+}

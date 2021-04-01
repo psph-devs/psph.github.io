@@ -55,7 +55,8 @@ var navLinks = document.getElementsByClassName("nav-link");
   });
 
 
-var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+var mymap = L.map('mapid').setView([14.5794, 121.0359], 13);
+L.marker([14.5794, 121.035]).addTo(mymap);
   
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -63,5 +64,5 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     id: 'mapbox/streets-v11',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoicHNwaC1kZXZzIiwiYSI6ImNrbXlvYW14czA1d20ycHBrd3c2cTB2eHcifQ.y3jPEQo_tl2ga0l8U9SCkw'
+    accessToken: 'pk.eyJ1IjoicHNwaC1kZXZzIiwiYSI6ImNrbXlvMG14ajA1b3Eybm1vemNvanRpYmwifQ.5ehL0GvynbdciEq4HyTvIw'
 }).addTo(mymap);

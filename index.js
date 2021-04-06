@@ -110,6 +110,20 @@ document.querySelector("#m-projects-link").addEventListener('click', () => {
     pnlMobileMenu.classList.toggle('hidden');
 });
 
+document.querySelector("#contacts-link").addEventListener('click', () => {
+  //scrollTo(document.querySelector("#services-content"));
+  removeClass('text-yellow-400')
+  document.querySelector("#contacts-link").classList.toggle("text-yellow-400")
+});
+
+document.querySelector("#m-contacts-link").addEventListener('click', () => {
+  //scrollTo(document.querySelector("#services-content"));
+  removeClass('text-yellow-400')
+  document.querySelector("#contacts-link").classList.toggle("text-yellow-400")
+  document.querySelector("#m-contacts-link").classList.toggle("text-yellow-400")
+  pnlMobileMenu.classList.toggle('hidden');
+});
+
 
 
 //MAP
